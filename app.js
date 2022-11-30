@@ -19,8 +19,13 @@ app.engine('hbs', engine({
 }));
 
 
+// su dung handlebars
 app.set('view engine', 'hbs');
 app.set('views', './views');
+
+//ket noi voi folder public de dung css
+app.use(express.static(__dirname + '/public'));
+
 
 app.get('/', (req, res) => {
     res.render('home');

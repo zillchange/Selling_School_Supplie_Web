@@ -1,0 +1,22 @@
+.bgGreen {
+    background-color: #93C54B;
+}
+
+.navDeco {
+    color: #93C54B;
+    background-color: white;
+}
+
+.bgGray {
+    background-color: rgb(218, 214, 214);
+}
+.changeColorInNav:hover {
+    background-color: #93C54B;
+}
+
+.fontFooter {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #339c02;
+
+}
